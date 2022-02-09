@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav-left {
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+}
+
+nav section ol {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav section ol li { 
+    width: 150px;
+    display: grid;
+    place-items: center;
+    color: white;
+}    
+
+nav section ol li a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+}
+nav section ol li a:hover{
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav section ol li:hover { 
+    background: yellow;
+    color: black;
+}
+
+.grid-item-1 {
+    grid-area: formulario;
+    justify-self: center;
+}
+
+.formulary {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px auto 100px;
+    grid-template-areas: ". . ."
+                         ". formulario ."
+                         ". . .";
+
+}
+
+.formulary form{
+    padding: 0 0px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(200, 255, 0, 0.8);
+    border-radius: 10%;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+input {
+    width: 80%;
+    height: 30px;
+    margin: 2px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgba(0,200,200,0.1);
+}
+
+button {
+    margin-top: 5px;
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+}
+
+figure img {
+    position: absolute;
+    width: 100%;
+    height: 88.8%;
+    z-index: -1;
+}
