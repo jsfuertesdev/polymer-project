@@ -6,7 +6,7 @@
 
 nav {
     width: 100%;
-    height: 70px;
+    height: 5%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -15,6 +15,7 @@ nav {
 
 .logo {
     width: 100px;
+    height: 60px;
 }
 
 .logo img {
@@ -43,6 +44,8 @@ nav section ol li {
 }    
 
 nav section ol li a{
+    display: flex;
+    justify-content: center;
     color: white;
     text-decoration: none;
     list-style-type: none;
@@ -58,33 +61,8 @@ nav section ol li:hover {
     color: black;
 }
 
-.principal {
-    display: grid;
-    place-items: center;
-    width: 100%;
-    height: 300px;
-    background-color: tomato;
-}
-
-.textos {
-    width: 600px;
-    height: 150px;
-}
-
-.textos h1{
-    display: flex;;
-    justify-content: center;
-    font-size: 50px;
-}
-
-.textos p{
-    font-size: 18px;
-    color: white;
-}
-
 .principal-2 {
     display: grid;
-    place-items: center;
     height: 500px;
     background-color: forestgreen;
 }
@@ -142,52 +120,4 @@ nav section ol li:hover {
     justify-self: center;
 }
 
-.precios {
-    height: 400px;
-    width: 100%;
-    background-color: orange;
-}
 
-.precios .textos {
-    display: flex;
-    width: 100%;
-    height: 300px;
-    justify-content: center;
-    align-items: center;
-    color: gold;
-}
-
-.precios .textos:hover {
-    color: navy;
-    cursor: pointer;
-}
-
-.precios > .textos {
-    height: fit-content;
-}
-
-.listas {
-    width: 100%;
-    height: 200px;
-    color: white;
-    display: flex;   
-    justify-content: space-around;
-    align-items: center ;
-    font-size: 50px;
-    list-style: none;
-}
-
-.listas li {
-    display: flex;
-    justify-content: center;
-    width: 200px;
-    border: 3px inset yellow;
-}
-
-.listas li:hover {
-    border: 3px double green;
-    background-color: black;
-    cursor: pointer;
-}
-
-/* center the text in nav in 1 line */
