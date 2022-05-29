@@ -13,9 +13,19 @@ nav {
     background-color: black;
 }
 
+nav {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+}
+
 .logo {
-    width: 100px;
+    padding-top: 10px;
     height: 60px;
+    width: 100px;
 }
 
 .logo img {
@@ -26,40 +36,35 @@ nav {
 .nav-left {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 600px;
 }
 
-nav section ol {
+.nav-left li {
     width: 100%;
+    height: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-nav section ol li { 
-    width: 150px;
-    display: grid;
-    place-items: center;
-    color: white;
-}    
-
-nav section ol li a{
-    display: flex;
-    justify-content: center;
-    color: white;
     text-decoration: none;
-    list-style-type: none;
-}
-nav section ol li a:hover{
-    color: black;
-    text-decoration: none;
-    list-style-type: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
 }
 
-nav section ol li:hover { 
+.nav-left li button{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.nav-left li button:hover { 
     background: yellow;
     color: black;
 }
+
 
 .principal-2 {
     display: grid;

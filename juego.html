@@ -6,17 +6,32 @@
     <link rel="stylesheet" href="./juego.css">
   </head>
   <body>
-    <div class="gameboard">
-      <div id="celeste" class="color celeste left" data-color="celeste"></div>
-      <div id="violeta" class="color violeta right" data-color="violeta"></div>
-      <div id="naranja" class="color naranja left" data-color="naranja"></div>
-      <div id="verde" class="color verde right" data-color="verde"></div>
-      <div id="celeste" class="color celeste left" data-color="celeste"></div>
-      <div id="violeta" class="color violeta right" data-color="violeta"></div>
-      <div id="naranja" class="color naranja left" data-color="naranja"></div>
-      <div id="verde" class="color verde right" data-color="verde"></div>
-      <button id="btnEmpezar" class="btn-start" onclick="empezarJuego()">Empezar a jugar!</button>
-    </div>
+    <nav>
+      <section class="logo">
+          <a href="./index.html">
+              <img src="https://logos-marcas.com/wp-content/uploads/2021/10/Recycle-Emblema.png" alt="Logo">
+          </a>
+      </section>
+      <section class="nav-left">
+              <li><button onclick="location.href='./juego.html'">Diviertete aprendiendo</button></li>
+              <li><button onclick="location.href='./Quienes.html'">¿Quienes somos?</button></li>
+              <li><button onclick="location.href='./landing.html'">Personas</button></li>
+              <li><button onclick="location.href='./landing.html'">Empresa</button></li>
+              <li><button onclick="location.href='./landing.html'">¿Como ayudar?</button></li>
+              <li><button onclick="location.href='./Registrese.html'">Registrese Aqui</button></li>
+      </section>
+  </nav>
+      <div class="gameboard">
+        <div id="celeste" class="color celeste left" data-color="celeste"></div>
+        <div id="violeta" class="color violeta right" data-color="violeta"></div>
+        <div id="naranja" class="color naranja left" data-color="naranja"></div>
+        <div id="verde" class="color verde right" data-color="verde"></div>
+        <div id="celeste" class="color celeste left" data-color="celeste"></div>
+        <div id="violeta" class="color violeta right" data-color="violeta"></div>
+        <div id="naranja" class="color naranja left" data-color="naranja"></div>
+        <div id="verde" class="color verde right" data-color="verde"></div>
+        <button id="btnEmpezar" class="btn-start" onclick="empezarJuego()">Empezar a jugar!</button>
+      </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.0/sweetalert.min.js">
     </script>
     <script src="./juego.js"></script>

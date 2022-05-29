@@ -1,17 +1,40 @@
-/* take the class cirlce and make a circle */
-.circle {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  background-color: blue;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
+/* take the class cirlce and make a circle with a text center*/
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+@keyframes latidos {
+  from { transform: none; }
+  50% { transform: scale(1.4); }
+  to { transform: none; }
+}
+
+.circle { 
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    animation: latidos 2s infinite;
+    transform-origin: center;
+}
+
 /* make the circle change color each 1 second */
 .circle:hover {
   background-color: red;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
