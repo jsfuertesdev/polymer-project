@@ -8,12 +8,12 @@ check the website in the next link:
 
 This project cover a game creation
 
-![Alt text](image.png)
+![Alt text](https://github.com/jsfuertesdev/polymer-project/blob/main/assets/image.png)
 
 Sell product session
 
-![Alt text](image-1.png)
+![Alt text](https://github.com/jsfuertesdev/polymer-project/blob/main/assets/image-1.png)
 
 And finally a small autentication to accest the platform
 
-![Alt text](image-2.png)
+![Alt text](https://github.com/jsfuertesdev/polymer-project/blob/main/assets/image-2.png)
