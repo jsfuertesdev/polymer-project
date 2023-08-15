@@ -8,12 +8,12 @@ check the website in the next link:
 
 This project cover a game creation
 
-<img src="https://github.com/jsfuertesdev/polymer-project/blob/main/assets/image.png" alt="Ejemplo" width="400" height="400">
+<img src="https://github.com/jsfuertesdev/polymer-project/blob/main/assets/image.png" alt="Ejemplo" width="350" height="250">
 
 Sell product session
 
-<img src="https://github.com/jsfuertesdev/polymer-project/blob/main/assets/image-1.png" alt="Ejemplo" width="400" height="400">
+<img src="https://github.com/jsfuertesdev/polymer-project/blob/main/assets/image-1.png" alt="Ejemplo" width="400" height="180">
 
 And finally a small autentication to accest the platform
 
-<img src="https://github.com/jsfuertesdev/polymer-project/blob/main/assets/image-2.png" alt="Ejemplo" width="400" height="400">
+<img src="https://github.com/jsfuertesdev/polymer-project/blob/main/assets/image-2.png" alt="Ejemplo" width="300" height="280">
