@@ -10,6 +10,8 @@ This project cover a game creation
 
 ![Alt text](https://github.com/jsfuertesdev/polymer-project/blob/main/assets/image.png)
 
+<img src="https://github.com/jsfuertesdev/polymer-project/blob/main/assets/image.png" alt="Ejemplo" width="400" height="300">
+
 Sell product session
 
 ![Alt text](https://github.com/jsfuertesdev/polymer-project/blob/main/assets/image-1.png)
